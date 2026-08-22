@@ -1,6 +1,0 @@
-{
-  "name": "Globetrotter India",
-  "description": "Comprehensive India travel planner, itinerary builder, budget tracker in INR, and regional language companion with AI travel assistant.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
