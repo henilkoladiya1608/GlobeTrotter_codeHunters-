@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-surface: #fbf9f9;
+    --color-surface-dim: #dbdad9;
+    --color-surface-bright: #fbf9f9;
+    --color-surface-container-lowest: #ffffff;
+    --color-surface-container-low: #f5f3f3;
+    --color-surface-container: #efeded;
+    --color-surface-container-high: #e9e8e7;
+    --color-surface-container-highest: #e3e2e2;
+    --color-on-surface: #1b1c1c;
+    --color-on-surface-variant: #5c3f41;
+    --color-inverse-surface: #303031;
+    --color-inverse-on-surface: #f2f0f0;
+    --color-outline: #906f70;
+    --color-outline-variant: #e5bdbe;
+    --color-surface-tint: #be0038;
+    --color-primary: #ba0036;
+    --color-on-primary: #ffffff;
+    --color-primary-container: #e21e4a;
+    --color-on-primary-container: #fffbff;
+    --color-inverse-primary: #ffb2b6;
+    --color-secondary: #5f5e5e;
+    --color-on-secondary: #ffffff;
+    --color-secondary-container: #e2dfde;
+    --color-on-secondary-container: #636262;
+    --color-tertiary: #006a45;
+    --color-on-tertiary: #ffffff;
+    --color-tertiary-container: #008558;
+    --color-on-tertiary-container: #f6fff6;
+    --color-error: #ba1a1a;
+    --color-primary-fixed: #ffdada;
+    --color-border-light: #DDDDDD;
+    --color-success-green: #4CAF50;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #fbf9f9;
+    color: #1b1c1c;
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: -0.01em;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    color: #1b1c1c;
+    letter-spacing: -0.02em;
+  }
+}
+
+/* Custom shadow tokens for Horizon Ethos Level 0, 1, 2 */
+.shadow-ethos-card {
+  box-shadow: 0px 4px 16px rgba(27, 28, 28, 0.05);
+}
+
+.shadow-ethos-hover {
+  box-shadow: 0px 8px 24px rgba(27, 28, 28, 0.08);
+}
+
+.shadow-ethos-float {
+  box-shadow: 0px 12px 32px rgba(186, 0, 54, 0.12);
+}
+
+/* Hide scrollbar for clean horizontal chip navigation */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
